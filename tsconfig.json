@@ -1,0 +1,16 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": ["src/**/*"],
+  // "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
+  "compilerOptions": {
+    "baseUrl": "/Users/manzark/Developer/DEV-065_New_Website_Astro3.0",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@img/*": ["assets/img/*"]
+    },
+    "strictNullChecks": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
+  }
+}

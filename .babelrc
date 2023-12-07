@@ -1,0 +1,3 @@
+{
+  "presets": [["solid", { "generate": "dom", "hydratable": true }]]
+}

@@ -1,0 +1,20 @@
+---
+import Footer from '../components/Footer.astro';
+interface Props {
+  title?: string;
+  description?: string;
+  tags?: string[];
+  status?: string;
+}
+
+const { title = 'Test site', description = 'Test site' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" transition:animate="none">
+  <head>
+  </head>
+  <body class="min-h-screen grid grid-rows-[auto,1fr,auto] bg-ef-bg-dim text-ef-fg">
+    <Footer />
+  </body>
+</html>
